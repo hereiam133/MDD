@@ -1,0 +1,545 @@
+  
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>pivotalCore/core.csv at master · reactivepixel/pivotalCore · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="http://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <link rel="xhr-socket" href="/_sockets">
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="w2HWhtoe2DgdOMgBXwKqPJ+wp/Rql6b4VcB/aggwKCk=" name="csrf-token" />
+
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-fe8985fb505dd648e3df92e1cfe506c78f04a2f0.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-09700cd562e05aa35532d7a63bee21efadb1b7d0.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-f2e7f60fd5513c040c880ead9de507b11cf70355.js" type="text/javascript"></script>
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-87ef52107a3a8d25590e53f33ea6a85d64c234dc.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="f265eaa792984e930289a9f236fbc55a">
+
+        <link data-pjax-transient rel='permalink' href='/reactivepixel/pivotalCore/blob/0ac30d266835d660194362d52ea305f8efbbd76e/core.csv'>
+    <meta property="og:title" content="pivotalCore"/>
+    <meta property="og:type" content="githubog:gitrepository"/>
+    <meta property="og:url" content="https://github.com/reactivepixel/pivotalCore"/>
+    <meta property="og:image" content="https://secure.gravatar.com/avatar/77f4cf5f33111a4583c147a4e2ba78b0?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <meta property="og:site_name" content="GitHub"/>
+    <meta property="og:description" content="Contribute to pivotalCore development by creating an account on GitHub."/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:site" content="@GitHub">
+    <meta property="twitter:title" content="reactivepixel/pivotalCore"/>
+
+    <meta name="description" content="Contribute to pivotalCore development by creating an account on GitHub." />
+
+  <link href="https://github.com/reactivepixel/pivotalCore/commits/master.atom" rel="alternate" title="Recent Commits to pivotalCore:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out page-blob  vis-public env-production  ">
+    <div id="wrapper">
+
+      
+
+      
+      
+      
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+      <a class="header-logo-wordmark" href="https://github.com/">Github</a>
+
+      <ul class="top-nav">
+          <li class="explore"><a href="https://github.com/explore">Explore GitHub</a></li>
+        <li class="search"><a href="https://github.com/search">Search</a></li>
+        <li class="features"><a href="https://github.com/features">Features</a></li>
+          <li class="blog"><a href="https://github.com/blog">Blog</a></li>
+      </ul>
+
+    <div class="header-actions">
+        <a class="button primary" href="https://github.com/signup">Sign up for free</a>
+      <a class="button" href="https://github.com/login?return_to=%2Freactivepixel%2FpivotalCore%2Fblob%2Fmaster%2Fcore.csv">Sign in</a>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+      
+
+
+            <div class="site hfeed" itemscope itemtype="http://schema.org/WebPage">
+      <div class="hentry">
+        
+        <div class="pagehead repohead instapaper_ignore readability-menu ">
+          <div class="container">
+            <div class="title-actions-bar">
+              
+
+
+<ul class="pagehead-actions">
+
+
+
+    <li>
+      <a href="/login?return_to=%2Freactivepixel%2FpivotalCore"
+        class="minibutton js-toggler-target star-button entice tooltipped upwards"
+        title="You must be signed in to use this feature" rel="nofollow">
+        <span class="mini-icon mini-icon-star"></span>Star
+      </a>
+      <a class="social-count js-social-count" href="/reactivepixel/pivotalCore/stargazers">
+        0
+      </a>
+    </li>
+    <li>
+      <a href="/login?return_to=%2Freactivepixel%2FpivotalCore"
+        class="minibutton js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="mini-icon mini-icon-fork"></span>Fork
+      </a>
+      <a href="/reactivepixel/pivotalCore/network" class="social-count">
+        2
+      </a>
+    </li>
+</ul>
+
+              <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+                <span class="repo-label"><span>public</span></span>
+                <span class="mega-icon mega-icon-public-repo"></span>
+                <span class="author vcard">
+                  <a href="/reactivepixel" class="url fn" itemprop="url" rel="author">
+                  <span itemprop="title">reactivepixel</span>
+                  </a></span> /
+                <strong><a href="/reactivepixel/pivotalCore" class="js-current-repository">pivotalCore</a></strong>
+              </h1>
+            </div>
+
+            
+  <ul class="tabs">
+    <li><a href="/reactivepixel/pivotalCore" class="selected" highlight="repo_source repo_downloads repo_commits repo_tags repo_branches">Code</a></li>
+    <li><a href="/reactivepixel/pivotalCore/network" highlight="repo_network">Network</a></li>
+    <li><a href="/reactivepixel/pivotalCore/pulls" highlight="repo_pulls">Pull Requests <span class='counter'>0</span></a></li>
+
+      <li><a href="/reactivepixel/pivotalCore/issues" highlight="repo_issues">Issues <span class='counter'>0</span></a></li>
+
+
+
+    <li><a href="/reactivepixel/pivotalCore/graphs" highlight="repo_graphs repo_contributors">Graphs</a></li>
+
+
+  </ul>
+  
+<div class="tabnav">
+
+  <span class="tabnav-right">
+    <ul class="tabnav-tabs">
+          <li><a href="/reactivepixel/pivotalCore/tags" class="tabnav-tab" highlight="repo_tags">Tags <span class="counter blank">0</span></a></li>
+    </ul>
+    
+  </span>
+
+  <div class="tabnav-widget scope">
+
+
+    <div class="select-menu js-menu-container js-select-menu js-branch-menu">
+      <a class="minibutton select-menu-button js-menu-target" data-hotkey="w" data-ref="master">
+        <span class="mini-icon mini-icon-branch"></span>
+        <i>branch:</i>
+        <span class="js-select-button">master</span>
+      </a>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+
+        <div class="select-menu-modal">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Switch branches/tags</span>
+            <span class="mini-icon mini-icon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-filters">
+            <div class="select-menu-text-filter">
+              <input type="text" id="commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+            </div>
+            <div class="select-menu-tabs">
+              <ul>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+                </li>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+                </li>
+              </ul>
+            </div><!-- /.select-menu-tabs -->
+          </div><!-- /.select-menu-filters -->
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="branches">
+
+            <div data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+                <div class="select-menu-item js-navigation-item js-navigation-target selected">
+                  <span class="select-menu-item-icon mini-icon mini-icon-confirm"></span>
+                  <a href="/reactivepixel/pivotalCore/blob/master/core.csv" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" rel="nofollow" title="master">master</a>
+                </div> <!-- /.select-menu-item -->
+            </div>
+
+              <div class="select-menu-no-results">Nothing to show</div>
+          </div> <!-- /.select-menu-list -->
+
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="tags">
+            <div data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+            </div>
+
+            <div class="select-menu-no-results">Nothing to show</div>
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+  </div> <!-- /.scope -->
+
+  <ul class="tabnav-tabs">
+    <li><a href="/reactivepixel/pivotalCore" class="selected tabnav-tab" highlight="repo_source">Files</a></li>
+    <li><a href="/reactivepixel/pivotalCore/commits/master" class="tabnav-tab" highlight="repo_commits">Commits</a></li>
+    <li><a href="/reactivepixel/pivotalCore/branches" class="tabnav-tab" highlight="repo_branches" rel="nofollow">Branches <span class="counter ">1</span></a></li>
+  </ul>
+
+</div>
+
+  
+  
+  
+
+
+            
+          </div>
+        </div><!-- /.repohead -->
+
+        <div id="js-repo-pjax-container" class="container context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:47c96fec28d0e3cc2a5b6579362571e9 -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:47c96fec28d0e3cc2a5b6579362571e9 -->
+
+
+<div id="slider">
+    <div class="frame-meta">
+
+      <p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+        <div class="breadcrumb">
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/reactivepixel/pivotalCore" class="js-slide-to" data-branch="master" data-direction="back" itemscope="url"><span itemprop="title">pivotalCore</span></a></span></span><span class="separator"> / </span><strong class="final-path">core.csv</strong> <span class="js-zeroclipboard zeroclipboard-button" data-clipboard-text="core.csv" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
+        </div>
+
+      <a href="/reactivepixel/pivotalCore/find/master" class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
+
+
+        
+  <div class="commit file-history-tease">
+    <img class="main-avatar" height="24" src="https://secure.gravatar.com/avatar/77f4cf5f33111a4583c147a4e2ba78b0?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="24" />
+    <span class="author"><a href="/reactivepixel" rel="author">reactivepixel</a></span>
+    <time class="js-relative-date" datetime="2013-02-04T23:17:24-08:00" title="2013-02-04 23:17:24">February 04, 2013</time>
+    <div class="commit-title">
+        <a href="/reactivepixel/pivotalCore/commit/30ee281b979233a9b0e2fd3e9f4d17f35ab9be11" class="message">init core</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>1</strong> contributor</a></p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2>Users on GitHub who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+        <li>
+          <img height="24" src="https://secure.gravatar.com/avatar/77f4cf5f33111a4583c147a4e2ba78b0?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="24" />
+          <a href="/reactivepixel">reactivepixel</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+    </div><!-- ./.frame-meta -->
+
+    <div class="frames">
+      <div class="frame" data-permalink-url="/reactivepixel/pivotalCore/blob/0ac30d266835d660194362d52ea305f8efbbd76e/core.csv" data-title="pivotalCore/core.csv at master · reactivepixel/pivotalCore · GitHub" data-type="blob">
+
+        <div id="files" class="bubble">
+          <div class="file">
+            <div class="meta">
+              <div class="info">
+                <span class="icon"><b class="mini-icon mini-icon-text-file"></b></span>
+                <span class="mode" title="File Mode">file</span>
+                  <span>90 lines (75 sloc)</span>
+                <span>17.266 kb</span>
+              </div>
+              <div class="actions">
+                <div class="button-group">
+                      <a class="minibutton js-entice" href=""
+                         data-entice="You must be signed in and on a branch to make or propose changes">Edit</a>
+                  <a href="/reactivepixel/pivotalCore/raw/master/core.csv" class="button minibutton " id="raw-url">Raw</a>
+                    <a href="/reactivepixel/pivotalCore/blame/master/core.csv" class="button minibutton ">Blame</a>
+                  <a href="/reactivepixel/pivotalCore/commits/master/core.csv" class="button minibutton " rel="nofollow">History</a>
+                </div><!-- /.button-group -->
+              </div><!-- /.actions -->
+
+            </div>
+                <div class="data type-text js-blob-data">
+      <table cellpadding="0" cellspacing="0" class="lines">
+        <tr>
+          <td>
+            <pre class="line_numbers"><span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+<span id="L11" rel="#L11">11</span>
+<span id="L12" rel="#L12">12</span>
+<span id="L13" rel="#L13">13</span>
+<span id="L14" rel="#L14">14</span>
+<span id="L15" rel="#L15">15</span>
+<span id="L16" rel="#L16">16</span>
+<span id="L17" rel="#L17">17</span>
+<span id="L18" rel="#L18">18</span>
+<span id="L19" rel="#L19">19</span>
+<span id="L20" rel="#L20">20</span>
+<span id="L21" rel="#L21">21</span>
+<span id="L22" rel="#L22">22</span>
+<span id="L23" rel="#L23">23</span>
+<span id="L24" rel="#L24">24</span>
+<span id="L25" rel="#L25">25</span>
+<span id="L26" rel="#L26">26</span>
+<span id="L27" rel="#L27">27</span>
+<span id="L28" rel="#L28">28</span>
+<span id="L29" rel="#L29">29</span>
+<span id="L30" rel="#L30">30</span>
+<span id="L31" rel="#L31">31</span>
+<span id="L32" rel="#L32">32</span>
+<span id="L33" rel="#L33">33</span>
+<span id="L34" rel="#L34">34</span>
+<span id="L35" rel="#L35">35</span>
+<span id="L36" rel="#L36">36</span>
+<span id="L37" rel="#L37">37</span>
+<span id="L38" rel="#L38">38</span>
+<span id="L39" rel="#L39">39</span>
+<span id="L40" rel="#L40">40</span>
+<span id="L41" rel="#L41">41</span>
+<span id="L42" rel="#L42">42</span>
+<span id="L43" rel="#L43">43</span>
+<span id="L44" rel="#L44">44</span>
+<span id="L45" rel="#L45">45</span>
+<span id="L46" rel="#L46">46</span>
+<span id="L47" rel="#L47">47</span>
+<span id="L48" rel="#L48">48</span>
+<span id="L49" rel="#L49">49</span>
+<span id="L50" rel="#L50">50</span>
+<span id="L51" rel="#L51">51</span>
+<span id="L52" rel="#L52">52</span>
+<span id="L53" rel="#L53">53</span>
+<span id="L54" rel="#L54">54</span>
+<span id="L55" rel="#L55">55</span>
+<span id="L56" rel="#L56">56</span>
+<span id="L57" rel="#L57">57</span>
+<span id="L58" rel="#L58">58</span>
+<span id="L59" rel="#L59">59</span>
+<span id="L60" rel="#L60">60</span>
+<span id="L61" rel="#L61">61</span>
+<span id="L62" rel="#L62">62</span>
+<span id="L63" rel="#L63">63</span>
+<span id="L64" rel="#L64">64</span>
+<span id="L65" rel="#L65">65</span>
+<span id="L66" rel="#L66">66</span>
+<span id="L67" rel="#L67">67</span>
+<span id="L68" rel="#L68">68</span>
+<span id="L69" rel="#L69">69</span>
+<span id="L70" rel="#L70">70</span>
+<span id="L71" rel="#L71">71</span>
+<span id="L72" rel="#L72">72</span>
+<span id="L73" rel="#L73">73</span>
+<span id="L74" rel="#L74">74</span>
+<span id="L75" rel="#L75">75</span>
+<span id="L76" rel="#L76">76</span>
+<span id="L77" rel="#L77">77</span>
+<span id="L78" rel="#L78">78</span>
+<span id="L79" rel="#L79">79</span>
+<span id="L80" rel="#L80">80</span>
+<span id="L81" rel="#L81">81</span>
+<span id="L82" rel="#L82">82</span>
+<span id="L83" rel="#L83">83</span>
+<span id="L84" rel="#L84">84</span>
+<span id="L85" rel="#L85">85</span>
+<span id="L86" rel="#L86">86</span>
+<span id="L87" rel="#L87">87</span>
+<span id="L88" rel="#L88">88</span>
+<span id="L89" rel="#L89">89</span>
+</pre>
+          </td>
+          <td width="100%">
+                  <div class="highlight"><pre><div class='line' id='LC1'>Id,Story,Labels,Iteration,Iteration Start,Iteration End,Story Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Owned By,Description,URL,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status</div><div class='line' id='LC2'>42590809,Project Requirements,research,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,chore,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Read all documentation provided for the project and get a firm understanding of what is expected of you.,http://www.pivotaltracker.com/story/show/42590809</div><div class='line' id='LC3'>42590579,Visual Frameworks,research,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,chore,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,Christopher Chapman,&quot;Determine which visual framework you intent to use for the duration of the project.</div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'>Make certain to experiment and play around with multiple frameworks until you find one that suits your needs. </div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'>Get a working knowledge with the code you may be working with so that you choose one that is flexible enough to fit your project.&quot;,http://www.pivotaltracker.com/story/show/42590579,Identify Popular Frameworks,not completed,Identify New and Trending Frameworks,not completed,Explore the Code,not completed,Experiment!,not completed,&quot;Choose your Framework, submit to FSO&quot;,not completed</div><div class='line' id='LC8'>42595125,[1.1] ,&quot;&quot;,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Submit the tasks listed below to FSO.,http://www.pivotaltracker.com/story/show/42595125,Pivotal Link,not completed,Github Link,not completed,Selected Archetype,not completed,Selected API,not completed</div><div class='line' id='LC9'>42591011,API,research,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,chore,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Determine what APIs you intend to use and on a higher level how you want to leverage them.,http://www.pivotaltracker.com/story/show/42591011</div><div class='line' id='LC10'>42589573,Base File Structure (MVC),setup,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Create the primary file structure.,http://www.pivotaltracker.com/story/show/42589573,Models,not completed,Views,not completed,Controllers,not completed,Assets,not completed,Libraries,not completed</div><div class='line' id='LC11'>42590109,Chosen Visual Framework,setup,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Setup the base libraries and visual frameworks you intend to use. (Bootstrap, JQuery Mobile, etc.)&quot;,http://www.pivotaltracker.com/story/show/42590109</div><div class='line' id='LC12'>42592487,API Proof of Concept,setup,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Implement a simple version of your chosen API. This be a stand alone page in your project that pulls the API&#39;s desired information.,http://www.pivotaltracker.com/story/show/42592487</div><div class='line' id='LC13'>42592651,Database,setup,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Create a simple one table database for the purpose of building upon it later. This is so that we can tie it into our project and know that the connection is working properly.,http://www.pivotaltracker.com/story/show/42592651</div><div class='line' id='LC14'>42592947,Database Table Structure,setup,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Add to the Database the basic tables and structure you anticipate for this project. You will likely refine these later so don&#39;t worry about getting them precisely perfect just yet.,http://www.pivotaltracker.com/story/show/42592947</div><div class='line' id='LC15'>42589605,[1.2] Initialization Iteration,&quot;&quot;,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42589605</div><div class='line' id='LC16'>42594753,Style Tiles (Guide),&quot;design, research&quot;,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,3,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;This style guide will set the tone for all views. If / when later on in the project a new view is needed to be created you can reuse predesigned elements to achieve the desired look for the view without having to go through the wireframe process, speeding your development time.</div><div class='line' id='LC17'><br/></div><div class='line' id='LC18'>Please use the resources linked below for further explanation. These assets you create should be placed into an ASSETS folder in your Github Repo.</div><div class='line' id='LC19'><br/></div><div class='line' id='LC20'>http://styletil.es/&quot;,http://www.pivotaltracker.com/story/show/42594753</div><div class='line' id='LC21'>42594351,Signup Page Style Tile,design,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Create a Style Tile to define the look of this page.,http://www.pivotaltracker.com/story/show/42594351</div><div class='line' id='LC22'>42596885,Listing Page Style Tile,design,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Create a Style Tile to define the look of this page.,http://www.pivotaltracker.com/story/show/42596885</div><div class='line' id='LC23'>42596957,Detail Page Style Tile,design,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Create a Style Tile to define the look of this page.,http://www.pivotaltracker.com/story/show/42596957</div><div class='line' id='LC24'>42598049,Visual Framework utilizing Style Guide ,implement,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Enhance your chosen visual framework to incorporate the elements defined in your Style Tiles.</div><div class='line' id='LC25'><br/></div><div class='line' id='LC26'>Identify the unique elements from your Style Tiles and develop the markup to create those items as needed through your views.&quot;,http://www.pivotaltracker.com/story/show/42598049</div><div class='line' id='LC27'>43012235,Responsive enhancement of Visual Framework,mobile feature,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,2,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,Adapt your Visual Framework to be responsive. This will require the addition of media queries to create break points that reorganize elements on the page to more adequately utilize the available space.,http://www.pivotaltracker.com/story/show/43012235</div><div class='line' id='LC28'>42598555,Weekly Self Audit,iteration,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Review your code, designs, and other materials created to ensure they are commented, well formatted, and developed to a a standard that represents your personal best work. </div><div class='line' id='LC29'><br/></div><div class='line' id='LC30'>You will be handing off your project to other developers for review and you should be confident that your work will stand up to their scrutiny in addition to the rubric.&quot;,http://www.pivotaltracker.com/story/show/42598555</div><div class='line' id='LC31'>42594021,[2.1] Pivotal Tracker Velocity Review,&quot;&quot;,1,&quot;Jan 30, 2013&quot;,&quot;Feb 5, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42594021</div><div class='line' id='LC32'>42595479,Peer Review,iteration,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Full Description of the Peer Review Process</div><div class='line' id='LC33'><br/></div><div class='line' id='LC34'>https://docs.google.com/document/d/1FvTSXVRmJD_TdatutzI4NfvlgItXy1nQUQCcEALLCY0/edit?usp=sharing&quot;,http://www.pivotaltracker.com/story/show/42595479</div><div class='line' id='LC35'>42594611,View for Signup Page,implement,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42594611</div><div class='line' id='LC36'>42596915,View for Listing Page,implement,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42596915</div><div class='line' id='LC37'>42596993,View for Detail Page,implement,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42596993</div><div class='line' id='LC38'>42594183,[2.2] Epic Progress,&quot;&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42594183</div><div class='line' id='LC39'>42609261, [CRUD],&quot;archetype, content&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,3,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;In a crowdsourced site or service the main focus of the site is generated by the users. Pictures, video, text, or other content, depending on the focus of your specific site need to CRUD as well.&quot;,http://www.pivotaltracker.com/story/show/42609261</div><div class='line' id='LC40'>42607379,[CRUD],&quot;archetype, user system&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,3,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Develop the base CRUD functionality for your project.,http://www.pivotaltracker.com/story/show/42607379</div><div class='line' id='LC41'>43009585,Authentication,&quot;archetype, user system&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,Local Storage is a great way to handle long term logins for users.,http://www.pivotaltracker.com/story/show/43009585,login,not completed,logout,not completed</div><div class='line' id='LC42'>42588479,Users should be able to positively signal a piece of content.,&quot;archetype, content&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42588479</div><div class='line' id='LC43'>42588465,User should be able to easily report misuse of site.,&quot;archetype, content&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588465</div><div class='line' id='LC44'>43009683,Restricting Functionality and Access to Sensitive Areas and Features.,&quot;archetype, user system&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,2,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,Making certain a user is logged in to preform certain actions.,http://www.pivotaltracker.com/story/show/43009683</div><div class='line' id='LC45'>42588153,Users can subscribe to other user&#39;s content feeds.,&quot;archetype, user profile&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42588153</div><div class='line' id='LC46'>42598579,Weekly Self Audit,&quot;&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Review your code, designs, and other materials created to ensure they are commented, well formatted, and developed to a a standard that represents your personal best work. </div><div class='line' id='LC47'><br/></div><div class='line' id='LC48'>You will be handing off your project to other developers for review and you should be confident that your work will stand up to their, as well as, the project rubric&#39;s scrutiny.&quot;,http://www.pivotaltracker.com/story/show/42598579</div><div class='line' id='LC49'>42594035,[3.1] Pivotal Tracker Velocity Review,&quot;&quot;,2,&quot;Feb 6, 2013&quot;,&quot;Feb 12, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42594035</div><div class='line' id='LC50'>42595833,Peer Review,iteration,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Full Description of the Peer Review Process</div><div class='line' id='LC51'><br/></div><div class='line' id='LC52'>https://docs.google.com/document/d/1FvTSXVRmJD_TdatutzI4NfvlgItXy1nQUQCcEALLCY0/edit?usp=sharing&quot;,http://www.pivotaltracker.com/story/show/42595833</div><div class='line' id='LC53'>43014061,Style guide for User Profile,&quot;archetype, implement&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,2,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/43014061</div><div class='line' id='LC54'>42588189,Users can create public profiles for themselves.,&quot;archetype, user profile&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42588189,Picture,not completed,Name,not completed,Bio,not completed,Birthdate,not completed,Location (Geolocation),not completed</div><div class='line' id='LC55'>42588579,Users should be able to find contact information for support.,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588579</div><div class='line' id='LC56'>42595277,[3.2],&quot;&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42595277</div><div class='line' id='LC57'>42997103,Error Handling,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,2,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,How errors are displayed to users and logged for admin review.,http://www.pivotaltracker.com/story/show/42997103</div><div class='line' id='LC58'>42588357,&quot;Dashboards should be populated with New, Popular, and Followed Content.&quot;,&quot;archetype, content discovery&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,3,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Home pages are great for displaying popular or fresh content that a user has yet to discover.,http://www.pivotaltracker.com/story/show/42588357,New,not completed,Popular,not completed,Followed,not completed</div><div class='line' id='LC59'>43013009,Full Site Switcher,mobile feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/43013009</div><div class='line' id='LC60'>42588635,Users should be able to subscribe to newsletter.,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588635</div><div class='line' id='LC61'>42588665,Users should be able to find help in documentation.,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,At minimum a FAQ section,http://www.pivotaltracker.com/story/show/42588665</div><div class='line' id='LC62'>42588647,Users should be able to find and read terms and policies.,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,Find a boilerplate Terms and Services agreement and modify it to your needs.,http://www.pivotaltracker.com/story/show/42588647</div><div class='line' id='LC63'>42588605,Users should be able to find copyright information.,base feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588605</div><div class='line' id='LC64'>43013039,Minified Scripts,mobile feature,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/43013039</div><div class='line' id='LC65'>42598601,Weekly Self Audit,&quot;&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,feature,1,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Review your code, designs, and other materials created to ensure they are commented, well formatted, and developed to a a standard that represents your personal best work. </div><div class='line' id='LC66'><br/></div><div class='line' id='LC67'>You will be handing off your project to other developers for review and you should be confident that your work will stand up to their scrutiny in addition to the rubric.&quot;,http://www.pivotaltracker.com/story/show/42598601</div><div class='line' id='LC68'>42594057,[4.1] Pivotal Tracker Velocity Review,&quot;&quot;,3,&quot;Feb 13, 2013&quot;,&quot;Feb 19, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42594057</div><div class='line' id='LC69'>42595863,Peer Review,iteration,4,&quot;Feb 20, 2013&quot;,&quot;Feb 26, 2013&quot;,feature,2,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;Full Description of the Peer Review Process</div><div class='line' id='LC70'><br/></div><div class='line' id='LC71'>https://docs.google.com/document/d/1FvTSXVRmJD_TdatutzI4NfvlgItXy1nQUQCcEALLCY0/edit?usp=sharing&quot;,http://www.pivotaltracker.com/story/show/42595863</div><div class='line' id='LC72'>43014511,Video Walk through,base feature,4,&quot;Feb 20, 2013&quot;,&quot;Feb 26, 2013&quot;,feature,3,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,Create an well edited 2 min. video walk through of your app. Draw upon your skills in previous classes.,http://www.pivotaltracker.com/story/show/43014511</div><div class='line' id='LC73'>43014543,Final Bug Stomping,base feature,4,&quot;Feb 20, 2013&quot;,&quot;Feb 26, 2013&quot;,feature,2,unstarted,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/43014543</div><div class='line' id='LC74'>42595905,[4.2] ,&quot;&quot;,4,&quot;Feb 20, 2013&quot;,&quot;Feb 26, 2013&quot;,release,,unstarted,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/42595905</div><div class='line' id='LC75'>43018457,milestone,&quot;&quot;,,,,release,,unscheduled,&quot;Jan 22, 2013&quot;,,,Christopher Chapman,,,http://www.pivotaltracker.com/story/show/43018457</div><div class='line' id='LC76'>42588139,Users can create and curate lists of content created by other users.,bonus points,,,,feature,3,unscheduled,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,&quot;This allows users to essentially create groups or playlists of content.</div><div class='line' id='LC77'><br/></div><div class='line' id='LC78'>Example: See Dribble Buckets - http://dribbble.com/_chapman/buckets&quot;,http://www.pivotaltracker.com/story/show/42588139</div><div class='line' id='LC79'>42588155,User should be able to easily filter content based on meta tags,bonus points,,,,feature,2,unscheduled,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588155</div><div class='line' id='LC80'>42588535,Content is required to be tagged with meta information upon submission.,bonus points,,,,feature,1,unscheduled,&quot;Jan 15, 2013&quot;,,,Christopher Chapman,,Comments are an essential part of any content sharing service.,http://www.pivotaltracker.com/story/show/42588535</div><div class='line' id='LC81'>43007539,Users can share content to other social networks,bonus points,,,,feature,2,unscheduled,&quot;Jan 22, 2013&quot;,,,Rachel Higley,,&quot;Facebook has created some really easy to use tools to help you out. Here is a direct link to them. Enjoy! </div><div class='line' id='LC82'><br/></div><div class='line' id='LC83'>https://developers.facebook.com/docs/plugins/&quot;,http://www.pivotaltracker.com/story/show/43007539</div><div class='line' id='LC84'>42588503,Advertisers should be able to show their products or services to make money.,bonus points,,,,feature,3,unscheduled,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,Google Ad words and other services offer viable revenue streams.,http://www.pivotaltracker.com/story/show/42588503</div><div class='line' id='LC85'>43000091,Email Blast to newsletter subscribers.,bonus points,,,,feature,3,unscheduled,&quot;Jan 22, 2013&quot;,,,Rachel Higley,,&quot;The ability to reach out to your audience is key. </div><div class='line' id='LC86'><br/></div><div class='line' id='LC87'>Create the ability for an admin user to send a templated email out to your subscribed users.&quot;,http://www.pivotaltracker.com/story/show/43000091</div><div class='line' id='LC88'>42588725,Users should be able to see related content to what they are currently viewing.,bonus points,,,,feature,3,unscheduled,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,This further promotes content discovery.,http://www.pivotaltracker.com/story/show/42588725</div><div class='line' id='LC89'>42588685,Users should be able to access recent activity in a data format such as JSON or RSS.,bonus points,,,,feature,2,unscheduled,&quot;Jan 15, 2013&quot;,,,Rachel Higley,,,http://www.pivotaltracker.com/story/show/42588685</div></pre></div>
+          </td>
+        </tr>
+      </table>
+  </div>
+
+          </div>
+        </div>
+
+        <a href="#jump-to-line" rel="facebox" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+        <div id="jump-to-line" style="display:none">
+          <h2>Jump to Line</h2>
+          <form accept-charset="UTF-8" class="js-jump-to-line-form">
+            <input class="textfield js-jump-to-line-field" type="text">
+            <div class="full-button">
+              <button type="submit" class="button">Go</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+<div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1347543529" height="64" width="64">
+</div>
+
+
+        </div>
+      </div>
+      <div class="context-overlay"></div>
+    </div>
+
+      <div id="footer-push"></div><!-- hack for sticky footer -->
+    </div><!-- end of wrapper - hack for sticky footer -->
+
+      <!-- footer -->
+      <div id="footer">
+  <div class="container clearfix">
+
+      <dl class="footer_nav">
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/about">About us</a></dd>
+        <dd><a href="https://github.com/blog">Blog</a></dd>
+        <dd><a href="https://github.com/contact">Contact &amp; support</a></dd>
+        <dd><a href="http://enterprise.github.com/">GitHub Enterprise</a></dd>
+        <dd><a href="http://status.github.com/">Site status</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Applications</dt>
+        <dd><a href="http://mac.github.com/">GitHub for Mac</a></dd>
+        <dd><a href="http://windows.github.com/">GitHub for Windows</a></dd>
+        <dd><a href="http://eclipse.github.com/">GitHub for Eclipse</a></dd>
+        <dd><a href="http://mobile.github.com/">GitHub mobile apps</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Services</dt>
+        <dd><a href="http://get.gaug.es/">Gauges: Web analytics</a></dd>
+        <dd><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></dd>
+        <dd><a href="https://gist.github.com">Gist: Code snippets</a></dd>
+        <dd><a href="http://jobs.github.com/">Job board</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Documentation</dt>
+        <dd><a href="http://help.github.com/">GitHub Help</a></dd>
+        <dd><a href="http://developer.github.com/">Developer API</a></dd>
+        <dd><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></dd>
+        <dd><a href="http://pages.github.com/">GitHub Pages</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>More</dt>
+        <dd><a href="http://training.github.com/">Training</a></dd>
+        <dd><a href="https://github.com/edu">Students &amp; teachers</a></dd>
+        <dd><a href="http://shop.github.com">The Shop</a></dd>
+        <dd><a href="/plans">Plans &amp; pricing</a></dd>
+        <dd><a href="http://octodex.github.com/">The Octodex</a></dd>
+      </dl>
+
+      <hr class="footer-divider">
+
+
+    <p class="right">&copy; 2013 <span title="0.06833s from fe13.rs.github.com">GitHub</span>, Inc. All rights reserved.</p>
+    <a class="left" href="https://github.com/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+        <li><a href="https://github.com/site/terms">Terms of Service</a></li>
+        <li><a href="https://github.com/site/privacy">Privacy</a></li>
+        <li><a href="https://github.com/security">Security</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+
+</div><!-- /.#footer -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/reactivepixel/pivotalCore/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-icon mega-icon-normalscreen"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="mini-icon mini-icon-brightness"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+
+    
+    
+    <span id='server_response_time' data-time='0.06874' data-host='fe13'></span>
+    
+  </body>
+</html>
+
