@@ -5,7 +5,26 @@
         $this->Auth->autoRedirect = true;
         parent::beforeFilter();
         $this->Auth->allow('add');
+	$this->set('facebookUser', $this->Connect->user());
+        $this->set('facebook_id', $this->Connect->user('id'));
+	$this->set('author', $this->Connect->user('role'));
+        $this->set('username', $this->Connect->user('username'));
     }
+function beforeFacebookSave(){
+    $this->Connect->authUser['User']['username'] = $this->Connect->user('username');
+    $this->Connect->authUser['User']['role'] = 'author';
+return true; //Must return true or will not save.
+}
+function afterFacebookLogin(){
+    //Logic to happen after successful facebook login.
+    $this->redirect($this->Auth->redirect('posts/user'));
+}
+
+
+
+
+
+
     public function login() {
     if ($this->request->is('post')) {
         if ($this->Auth->login()) {
@@ -22,8 +41,8 @@
 }
 
 public function logout() {
-	 $this->Session->destroy();
-        $this->Facebook->logout();
+	 
+	$this->Session->destroy();
         $this->redirect($this->Auth->logout());
 }
     
@@ -100,6 +119,7 @@ public function logout() {
         $this->redirect(array('action' => 'index'));
     }
 }
+
 	
 
 

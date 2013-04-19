@@ -38,14 +38,15 @@ class AppController extends Controller {
 	public $components = array(
         
         'Session',
-	'Facebook.Connect',
+	
         'Auth' => array(
      
            /* 'loginRedirect' => array('controller' => 'posts', 'action' => 'user'), */
             'logoutRedirect' => array('controller' => 'posts', 'action' => 'index'),
             'authorize' => array('Controller'),
-	'authorizedActions' => array('index','view')
-        )
+	     'authorizedActions' => array('index','view')
+        ),
+	'Facebook.Connect' => array('model' => 'User')
         
    
         
@@ -64,8 +65,12 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         
-        $this->set('facebook_user', $this->Connect->user());
-	$this->Auth->allow('logout');
+        $this->set('facebookUser', $this->Connect->user());
+        $this->set('facebook_id', $this->Connect->user('id'));
+	$this->set('author', $this->Connect->user('role'));
+        $this->set('username', $this->Connect->user('username'));
+	 $this->Auth->allow('logout');
+	$this->Auth->logoutRedirect = '/';
         $this->Auth->allow('login');
         $this->Auth->allow('index', 'view');
         

@@ -17,4 +17,5 @@
 
 <p><?php echo $this->Html->link('Add Post', array('action' => 'add')); ?> </br>
 <?php echo $this->Html->link('Create New User', '/users/admin_add'); ?>
-</br><?php echo $this->Html->link('Logout', '/users/logout'); ?></p>
+</br><?php
+echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); ?></p>

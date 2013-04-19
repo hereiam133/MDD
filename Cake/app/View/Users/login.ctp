@@ -1,14 +1,12 @@
 <div class="users form">
 <?php echo $this->Session->flash('auth'); ?>
-	<?php if($facebook_user){
-	echo $this->Facebook->logout();
-	debug($Facebook_user);
-	debug($user);
+	<?php if($facebookUser){
+
+echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); 
 }
 else{
 echo $this->Facebook->login(); }
  ?>
-
 
 	<h2>OR</h2>
 <?php echo $this->Form->create('User'); ?>

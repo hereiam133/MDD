@@ -3,7 +3,8 @@
 <div class="users form">
 
 	<?php if($facebook_user){
-	echo $this->Facebook->logout();
+
+echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");'));
 }
 else{
 echo $this->Facebook->login(); }
