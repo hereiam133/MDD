@@ -47,6 +47,6 @@ For those trying to install locally,
 - FB integration WILL NOT WORK without you setting up an api and changing quite a bit of the code as this has been setup for a real live environment.
 - after you DL the files, point Mamp to where ever you have placed the file then to the Cake folder example: if its on your desktop like on mine it would be /Users/Jason/Desktop/MDD-master 2/Cake
 - next open your SQL and create a database and upload SQL dump in folder root. Then update database settings in Cake/apps/config/database.php
-- 
+- .
 
 
