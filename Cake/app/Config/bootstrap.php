@@ -73,7 +73,7 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 CakePlugin::load('Facebook');
-
+CakePlugin::load('Contactform', array('routes' => true));
 
 
 /**
@@ -111,3 +111,4 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+App::import('Lib', 'Tools.Bootstrap/MyBootstrap');
