@@ -1,3 +1,8 @@
+GIT WILL NOT SYNC ALL THE FILES IN THIS APP. 
+Use this link for the latest file download. 
+http://mdd.simplydone.org/MDD.zip
+
+
 MDD
 ===
 
