@@ -1,8 +1,10 @@
 <!-- File: /app/View/Posts/index.ctp -->
 
-<h1>Crazy But True</h1>
+<div id="monkey">
+<?php echo $this->Html->image('monkey.jpg', array('alt' => 'Monkey Img', 'border' => '0')); ?> 
+</div>
 
-<div>
+<div class="center outline index_p">
 <?php foreach ($posts as $post): ?>	
 	
 	 	<p><?php echo h($post['Post']['body']); ?></br>By: <?php echo $post['Post']['username']; ?></br><?php echo $post['Post']['created']; ?></p>
@@ -10,9 +12,9 @@
 <?php endforeach; ?>
 </div>
 
-       
-    <p><?php echo $this->Html->link('Login', '/users/login'); ?></br>
-    <?php echo $this->Html->link('Register', '/users/add'); ?>
-</br>
+     <div class="center p_button">  
+    <p><?php echo $this->Html->link('Login', '/users/login', array('class' => 'button')); ?></p><p>
+    <?php echo $this->Html->link('Register', '/users/add', array('class' => 'button')); ?>
 </p>
+</div>
      

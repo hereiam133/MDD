@@ -72,6 +72,7 @@ class AppController extends Controller {
 	 $this->Auth->allow('logout');
 	$this->Auth->logoutRedirect = '/';
         $this->Auth->allow('login');
+	$this->Auth->allow('terms');
         $this->Auth->allow('index', 'view');
         
         if($this->Auth->user('role') == 'admin'){

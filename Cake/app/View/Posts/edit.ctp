@@ -1,6 +1,6 @@
 <!-- File: /app/View/Posts/edit.ctp -->
-
-<h1>Edit Post</h1>
+<div class="center outline index_p">
+<h2>Edit Post</h2>
 <?php
     echo $this->Form->create('Post');
     echo $this->Form->hidden('username', array('value' => AuthComponent::user('username')));
@@ -8,3 +8,5 @@
     echo $this->Form->input('id', array('type' => 'hidden'));
     echo $this->Form->end('Save Post');
     ?>
+
+</div>

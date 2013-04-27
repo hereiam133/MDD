@@ -44,7 +44,11 @@ class PostsController extends AppController {
         }
         $this->set('post', $post);
     }
-    
+	public function terms() {
+       
+    }    
+
+
     public function add() {
         if ($this->request->is('post')) {
         $this->request->data['Post']['user_id'] = $this->Auth->user('id'); //Added this line

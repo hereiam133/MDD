@@ -1,6 +1,6 @@
 <!-- app/View/Users/add.ctp -->
 
-<div class="users form">
+<div class="users form center outline index_p">
 
 	<?php if($facebook_user){
 
@@ -22,5 +22,6 @@ echo $this->Facebook->login(); }
     ?>
     </fieldset>
 <?php echo $this->Form->end(__('Submit')); ?></br>
-<?php echo $this->Html->link('Back', '/'); ?>
 </div>
+<div class="center p_button"><p>  
+<?php echo $this->Html->link('Back', '/', array('class' => 'button')); ?></p></div>

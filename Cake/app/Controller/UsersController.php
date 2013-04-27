@@ -20,11 +20,6 @@ function afterFacebookLogin(){
     $this->redirect($this->Auth->redirect('posts/user'));
 }
 
-
-
-
-
-
     public function login() {
     if ($this->request->is('post')) {
         if ($this->Auth->login()) {
@@ -42,15 +37,16 @@ function afterFacebookLogin(){
 
 public function logout() {
 	 
-	$this->Session->destroy();
-        $this->redirect($this->Auth->logout());
-}
-    
+	  $this->Session->destroy();
+
+          $this->redirect($this->Auth->logout());	
+} 
 
     public function index() {
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
         $this->Session->destroy();
+
         
     }
 

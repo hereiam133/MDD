@@ -1,7 +1,5 @@
 <!-- File: /app/View/Posts/home.ctp -->
-
-<h1>Crazy But True</h1>
-<div>
+<div class="center outline index_p">
 <?php foreach ($posts as $post): ?>
 
 <p><?php echo h($post['Post']['body']); ?></br>By: <?php echo $post['Post']['username']; ?></br><?php echo $post['Post']['created']; ?></br> <?php echo $this->Form->postLink(
@@ -14,8 +12,8 @@
 
 </div>
 
-
-<p><?php echo $this->Html->link('Add Post', array('action' => 'add')); ?> </br>
-<?php echo $this->Html->link('Create New User', '/users/admin_add'); ?>
-</br><?php
-echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); ?></p>
+<div class="center p_button">  
+<p><?php echo $this->Html->link('Add Post', array('action' => 'add'), array('class' => 'button')); ?> </p><p>
+<?php echo $this->Html->link('Create New User', '/users/admin_add', array('class' => 'button')); ?>
+</p><p><?php
+echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); ?></p></div>

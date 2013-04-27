@@ -1,7 +1,5 @@
 <!-- File: /app/View/Posts/user.ctp -->
-<h1>Crazy But True</h1>
-
-<div>
+<div class="center outline index_p">
 <?php foreach ($posts as $post): ?>	
 	
 	 	<p><?php echo h($post['Post']['body']); ?></br>By: <?php echo h($post['Post']['username']); ?></br><?php echo $post['Post']['created']; ?></br>
@@ -18,7 +16,12 @@
  
 <?php endforeach; ?>
 </div>
-<p><?php echo $this->Html->link('Add Post', array('action' => 'add')); ?> 
-<?php
-echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); ?></p>
-     
+<div class="center p_button">  
+<p><?php echo $this->Html->link('Add Post', array('action' => 'add'), array('class' => 'button')); ?> 
+</p>
+<p>
+
+<?php echo $this->Facebook->disconnect(array('label' => 'Logout', 'redirect' => '/users/logout')); ?>
+</p>
+</div>
+

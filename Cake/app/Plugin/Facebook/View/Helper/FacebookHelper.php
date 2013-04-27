@@ -222,7 +222,7 @@ class FacebookHelper extends AppHelper {
 	public function disconnect($options = array()){
 		$options = array_merge(
 			array(
-				'label' => 'logout'
+				'label' => 'Logout'
 			), 
 			$options
 		);
@@ -232,11 +232,16 @@ class FacebookHelper extends AppHelper {
 		} else {
 			$response = "window.location.reload();";
 		}
-		$onclick = "FB.api({ method: 'Auth.revokeAuthorization' }, function(response) {".$response."});";
+		$onclick = "FB.api({ method: 'Auth.revokeAuthorization' }, function(response) {".$response."});		
+
+session_destroy();
+
+
+";
 		if(isset($options['confirm'])){
 			$onclick = 'if(confirm("'.$options['confirm'].'")){'.$onclick.'}';
 		}
-		return $this->Html->link($options['label'], '#', array('onclick' => $onclick));
+		return $this->Html->link($options['label'], '#', array('onclick' => $onclick, 'next' => 'logout'));
 	}
 	
 	/**

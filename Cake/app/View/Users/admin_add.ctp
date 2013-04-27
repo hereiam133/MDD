@@ -1,5 +1,5 @@
 <!-- app/View/Users/add.ctp -->
-<div class="users form">
+<div class="users form center outline index_p">
 <?php echo $this->Form->create('User'); ?>
     <fieldset>
         <legend><?php echo __('Add User'); ?></legend>
@@ -10,6 +10,7 @@
         ));
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Submit')); ?></br>
-<?php echo $this->Html->link('Back', '/posts/home'); ?>
+<?php echo $this->Form->end(__('Submit')); ?>
 </div>
+<div class="center p_button"><p>  
+<?php echo $this->Html->link('Back', '/posts/home', array('class' => 'button')); ?></p></div>

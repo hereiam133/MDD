@@ -1,4 +1,4 @@
-<div class="users form">
+<div class="users form center outline index_p">
 <?php echo $this->Session->flash('auth'); ?>
 	<?php if($facebookUser){
 
@@ -17,6 +17,7 @@ echo $this->Facebook->login(); }
     ?>
     </fieldset>
 <?php echo $this->Form->end(__('Login')); ?></br>
-<?php echo $this->Html->link('Back', '/'); ?>
-</div>
 
+</div>
+ <div class="center p_button"><p>  
+<?php echo $this->Html->link('Back', '/', array('class' => 'button')); ?></p></div>
