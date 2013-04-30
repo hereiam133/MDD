@@ -13,7 +13,7 @@
 App::uses('FB', 'Facebook.Lib');
 App::uses('FacebookInfo', 'Facebook.Lib');
 class ConnectComponent extends Component {
-	
+		
 	/**
 	* uid is the Facebook ID of the connected Facebook user, or null if not connected
 	*/
@@ -78,8 +78,9 @@ class ConnectComponent extends Component {
 	* @return void
 	* @access public
 	*/
-	public function initialize(Controller $controller, $settings = array()){
+	public function initialize(Controller $controller, $settings = array()){		
 		$this->Controller = $controller;
+		$this->Controller->Session->id($this->Controller->Cookie->read(Configure::read('Session.cookie')));
 		$this->_set($settings);
 		$this->FB = new FB();
 		$this->uid = $this->FB->getUser();
@@ -127,6 +128,15 @@ class ConnectComponent extends Component {
 	* @return boolean True if successful, false otherwise.
 	*/
 	private function __syncFacebookUser(){
+	/*	if(in_array($this->Controller->request['action'],Configure::read('Facebook.logout_actions'))){
+
+$this->FB->destroySession();
+if(Configure::read('debug')>0){
+$this->Controller->log($this->Controller->request['action'],'-destroyed session!',"facebook");
+}
+}
+*/
+	
 		if(!isset($this->Controller->Auth)){
 			return false;
 		}
@@ -170,7 +180,12 @@ class ConnectComponent extends Component {
 				}
 			}
 			//Login user if we have one
+			
 			if($this->authUser){
+				
+			
+			
+			
 				$this->__runCallback('beforeFacebookLogin', $this->authUser);
 				$Auth->authenticate = array(
 					'Form' => array(

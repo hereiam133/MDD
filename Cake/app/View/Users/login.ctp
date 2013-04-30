@@ -1,13 +1,8 @@
 <div class="users form center outline index_p">
 <?php echo $this->Session->flash('auth'); ?>
-	<?php if($facebookUser){
-
-echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'),array('onclick'=>'logout("/");')); 
-}
-else{
-echo $this->Facebook->login(); }
+<?php 
+echo $this->Facebook->login(); 
  ?>
-
 	<h2>OR</h2>
 <?php echo $this->Form->create('User'); ?>
     <fieldset>

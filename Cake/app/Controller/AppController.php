@@ -38,6 +38,7 @@ class AppController extends Controller {
 	public $components = array(
         
         'Session',
+        'Cookie',
 	
         'Auth' => array(
      
@@ -70,6 +71,7 @@ class AppController extends Controller {
 	$this->set('author', $this->Connect->user('role'));
         $this->set('username', $this->Connect->user('username'));
 	 $this->Auth->allow('logout');
+	  $this->Auth->allow('posts', 'faq');
 	$this->Auth->logoutRedirect = '/';
         $this->Auth->allow('login');
 	$this->Auth->allow('terms');
@@ -81,10 +83,4 @@ class AppController extends Controller {
      $this->Auth->loginRedirect = array('controller' => 'posts', 'action' => 'user');
 }
     }
-   
-    
-
-
-
-  
 }

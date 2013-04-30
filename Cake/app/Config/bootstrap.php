@@ -73,7 +73,7 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 CakePlugin::load('Facebook');
-CakePlugin::load('Contactform', array('routes' => true));
+
 
 
 /**

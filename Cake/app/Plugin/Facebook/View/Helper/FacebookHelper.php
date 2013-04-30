@@ -13,7 +13,7 @@ class FacebookHelper extends AppHelper {
 	/**
 	* Helpers to load with this helper.
 	*/
-	public $helpers = array('Html', 'Session');
+	public $helpers = array('Html', 'Session', 'Cookie');
 	
 	/**
 	* Default Facebook.Share javascript URL
@@ -172,8 +172,8 @@ class FacebookHelper extends AppHelper {
 	public function logout($options = array(), $label = ''){
 		$options = array_merge(
 			array(
-				'label' => '',
-				'custom' => false,
+				'label' => 'Logout',
+				'custom' => true,
 				'redirect' => false,
 				'img' => false,
 				'alt' => '',
@@ -197,7 +197,7 @@ class FacebookHelper extends AppHelper {
 			}
 			else {
 				return $this->Html->link($options['label'], '#', array(
-					'onclick' => $onclick, 'id' => $options['id']));
+					'onclick' => $onclick, 'id' => $options['id'], 'class' => 'button'));
 			}
 		} else {
 			$source = '/Facebook/img/facebook-logout.png';
@@ -232,16 +232,11 @@ class FacebookHelper extends AppHelper {
 		} else {
 			$response = "window.location.reload();";
 		}
-		$onclick = "FB.api({ method: 'Auth.revokeAuthorization' }, function(response) {".$response."});		
-
-session_destroy();
-
-
-";
+		$onclick = "FB.api({ method: 'Auth.revokeAuthorization' }, function(response) {".$response."});		session_destroy();";
 		if(isset($options['confirm'])){
 			$onclick = 'if(confirm("'.$options['confirm'].'")){'.$onclick.'}';
 		}
-		return $this->Html->link($options['label'], '#', array('onclick' => $onclick, 'next' => 'logout'));
+		return $this->Html->link($options['label'],  '#', array('onclick' => $onclick, 'next' => 'logout'),$options['custom']);
 	}
 	
 	/**

@@ -4,12 +4,13 @@
     public function beforeFilter() {
         $this->Auth->autoRedirect = true;
         parent::beforeFilter();
-        $this->Auth->allow('add');
+        $this->Auth->allow('add','contact');
 	$this->set('facebookUser', $this->Connect->user());
         $this->set('facebook_id', $this->Connect->user('id'));
 	$this->set('author', $this->Connect->user('role'));
         $this->set('username', $this->Connect->user('username'));
-    }
+    } 
+    
 function beforeFacebookSave(){
     $this->Connect->authUser['User']['username'] = $this->Connect->user('username');
     $this->Connect->authUser['User']['role'] = 'author';
@@ -37,9 +38,8 @@ function afterFacebookLogin(){
 
 public function logout() {
 	 
-	  $this->Session->destroy();
-
-          $this->redirect($this->Auth->logout());	
+	    $this->Session->destroy();
+        $this->redirect($this->Auth->logout());	
 } 
 
     public function index() {
@@ -114,9 +114,45 @@ public function logout() {
         $this->Session->setFlash(__('User was not deleted'));
         $this->redirect(array('action' => 'index'));
     }
+	public function contact($user_id=null) {
+		if(is_numeric($user_id)){
+			if(!$this->Auth->user('id')){
+				$this->redirect(array('action'=>'login'));
+			}
+			$this->User->id=$user_id;
+			if(!$this->User->exists()){
+			   throw new NotFoundException(__('Invalid user'));
+			}
+			$reported_user=$this->User->field('username');
+			$this->set(compact('reported_user'));
+		}
+		if($this->request->is('post')){
+					if(isset($reported_user)){$this->request->data['Contact']['message'].="\r\n Report User: {$reported_user}";}
+
+					if(empty($this->request->data['Contact']['email']) || empty($this->request->data['Contact']['name']) || empty($this->request->data['Contact']['message'])){
+					$this->Session->setFlash(__('Please Fill In All The Fields'),'default');
+					return false;
+}
+			App::uses('CakeEmail', 'Network/Email');
+			$Email = new CakeEmail();
+
+			
+
+if(   $Email->from(array($this->request->data['Contact']['email'] => $this->request->data['Contact']['name']))
+    			->to('hereiam133@gmail.com')
+    			->subject('Contact Form Request')
+    			->send($this->request->data['Contact']['message'])
+    			
+   ){	 
+	 $this->Session->setFlash(__('Contact form sent successfully!'),'default',array('class'=>'success'));}
+else{
+		$this->Session->setFlash(__('Contact form was Not Submitted.'),'default');
 }
 
+
+
+		}
+	}
 	
-
-
+}
 ?>

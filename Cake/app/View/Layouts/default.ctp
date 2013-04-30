@@ -17,7 +17,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'Crazy But True | Facts that will blow your mind!');
 ?>
 <!DOCTYPE html>
 <?php echo $this->Facebook->html(); ?>
@@ -32,7 +32,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		echo $this->Html->css('cake.generic');
 
-		echo $this->fetch('meta');
+		echo $this->Html->meta(
+    'description',
+    'Crazy But True | Facts that will blow your mind!'
+   );
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
@@ -52,10 +55,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<li>
 					<a class="clicker"><?php echo $this->Html->image('gear.png', array('alt' => 'Settings', 'border' => '0'));?></a>
 					<ul>
-						<li><?php echo $this->Html->link('Contact', '/'); ?></li>
-						<li><?php echo $this->Html->link('Bugs', '/'); ?></li>
+						<li><?php echo $this->Html->link('Contact', '/contact'); ?></li>
 						<li><?php echo $this->Html->link('Privacy', '/posts/terms'); ?></li>
-						<li><?php echo $this->Html->link('Help', '/'); ?></li>
+						<li><?php echo $this->Html->link('Help', '/posts/faq'); ?></li>
 						
 					</ul>
 				</li>
