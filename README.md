@@ -54,4 +54,8 @@ For those trying to install locally,
 - next open your SQL and create a database and upload SQL dump in folder root. Then update database settings in Cake/apps/config/database.php
 - .
 
+04/30/2013
+
+Facebook Logout function fixed, email support added, report misuse added, FAQ added, Terms added.
+All current features are tested to be working with no issues.
 
